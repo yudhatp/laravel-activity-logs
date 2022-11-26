@@ -1,0 +1,49 @@
+{
+    "name": "yudhatp/laravel-activity-logs",
+    "description": "Simple Activity Log for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yudha T. Putra",
+            "email": "yudhatp@gmail.com",
+            "homepage": "https://yudhatp.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/yudhatp/laravel-activity-logs",
+    "keywords": ["Laravel", "Activity Logs", "Log"],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yudhatp\\ActivityLogs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yudhatp\\ActivityLogs\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yudhatp\\ActivityLogs\\ActivityLogsServiceProvider"
+            ],
+            "aliases": {
+                "ActivityLogs": "Yudhatp\\ActivityLogs\\Facades\\ActivityLogs"
+            }
+        }
+    }
+}
