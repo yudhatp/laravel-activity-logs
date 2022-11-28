@@ -7,7 +7,7 @@ Simple Activity Log for Laravel
 You can install the package via composer:
 
 ```bash
-composer require yudhatp/laravel-activity-log
+composer require yudhatp/laravel-activity-logs
 ```
 
 You can publish and run the migrations with:
