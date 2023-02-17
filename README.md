@@ -1,6 +1,6 @@
 # Laravel Activity Logs
 
-Simple Activity Log for Laravel
+Simple Activity Log for Laravel 6.x, 7.x, 8.x, 9.x, 10,x.
 
 ## Installation
 

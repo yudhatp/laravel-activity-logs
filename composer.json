@@ -13,7 +13,8 @@
     "homepage": "https://github.com/yudhatp/laravel-activity-logs",
     "keywords": ["Laravel", "Activity Logs", "Log"],
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3",
