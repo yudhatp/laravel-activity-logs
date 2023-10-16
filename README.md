@@ -1,6 +1,6 @@
 # Laravel Activity Logs
 
-Simple and Usefull Activity Log for Laravel 6.x, 7.x, 8.x, 9.x, 10,x.
+Simple & Usefull Activity Log for Laravel 6.x, 7.x, 8.x, 9.x, 10,x.
 
 ## Installation
 
@@ -24,7 +24,7 @@ php artisan vendor:publish --tag=yudhatp-activity-logs-config
 
 ## Usage
 
-# Auto Logging
+### Auto Logging
 on "kernel.php", add this line on your "protected $middlewareGroups"
 ```php
 'web' => [
@@ -40,7 +40,7 @@ in the config file, you can determine what data will be stored in "user_id". at 
 ```
 
 
-# Manual Logging
+### Manual Logging
 on your controller, write this code :
 ```php
 use Yudhatp\ActivityLogs\ActivityLogs;
